@@ -21,13 +21,11 @@ type AvatarImageProps = ComponentProps &
   Omit<LinkProps, 'href'> & {
     large?: boolean
     href?: string
-    alt?: boolean
   }
 function AvatarImage({
   large = false,
   className,
   href,
-  alt,
   ...props
 }: AvatarImageProps) {
   return (
