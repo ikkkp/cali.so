@@ -34,7 +34,7 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>完美主义者,有点艺术细胞</span>
+      <span>完美主义者&有点艺术细胞</span>
     </span>
   )
 }
@@ -53,7 +53,7 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
+        <Designer /><Developer />，
         <span className="block h-2" />
         <OCD />
       </motion.h1>
