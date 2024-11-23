@@ -1,5 +1,5 @@
 export const seo = {
-  title: 'ikkkp | 02｜hangzhou｜FE dev｜INFJ 乐观的悲观主义者｜热爱开发、设计、Web3。',
+  title: "ikkkp's blog",
   description:
     'ikkkp | 02｜hangzhou｜FE dev｜INFJ 乐观的悲观主义者｜热爱开发、设计、Web3。',
   url: new URL(
