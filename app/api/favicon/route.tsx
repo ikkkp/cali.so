@@ -12,8 +12,8 @@ function getKey(url: string) {
 }
 
 const faviconMapper: { [key: string]: string } = {
-  '((?:zolplay.cn)|(?:zolplay.com)|(?:cn.zolplay.com))':
-    'https://ikkkp.me/favicons/zolplay.png',
+  '((?:ikkkp.me))':
+    'https://ikkkp.me/favicons/ikkkp.png',
   '(?:github.com)': 'https://ikkkp.me/favicons/github.png',
   '((?:t.co)|(?:twitter.com)|(?:x.com))':
     'https://ikkkp.me/favicons/twitter.png',
